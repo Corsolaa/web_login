@@ -1,5 +1,5 @@
 <?php
-if(!defined("what_you_doing")) {
+if (!defined("what_you_doing")) {
     die('Direct access not permitted');
 }
 
@@ -14,5 +14,5 @@ include("functions/get_title.php")
     <meta name="robots" content="noindex, nofollow">
     <meta name="author" content="John Spice">
 
-    <title><?php echo get_title();?></title>
+    <title><?php echo get_title(); ?></title>
 </head>

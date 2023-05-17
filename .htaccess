@@ -1,0 +1,8 @@
+<Directory  ~ "\functions">
+    Order allow,deny
+    Deny from all
+</Directory>
+<Directory  ~ "\components">
+    Order allow,deny
+    Deny from all
+</Directory>
