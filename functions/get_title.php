@@ -1,7 +1,4 @@
 <?php
-if (!defined("what_you_doing")) {
-    die('Direct access not permitted');
-}
 
 function get_title(): string
 {

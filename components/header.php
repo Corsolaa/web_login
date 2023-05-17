@@ -1,9 +1,5 @@
 <?php
-if (!defined("what_you_doing")) {
-    die('Direct access not permitted');
-}
-
-include("functions/get_title.php")
+include("functions/get_title.php");
 ?>
 <!doctype html>
 <html lang="en">
