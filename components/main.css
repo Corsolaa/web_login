@@ -1,0 +1,62 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox] {
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.header a {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+
+    text-decoration: none;
+    color: black;
+}
+.header a:hover {
+    text-decoration: underline;
+}
+.header a img {
+    max-height: 100%;
+    max-width: 100%;
+
+    padding: 15px;
+}
+.header a h1 {
+    margin-left: 10px;
+}

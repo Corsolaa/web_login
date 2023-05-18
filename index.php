@@ -1,5 +1,5 @@
 <?php
-include("components/header.php");
+include_once("components/header.php");
 ?>
 
 <div class="content">
