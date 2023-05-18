@@ -5,5 +5,5 @@ if(($_POST["u_name"] && $_POST["password"]) != null) {
     echo $_POST["password"];
 } else {
     echo "whoops";
-    header("Location: ../");
+    header("Location: ../login" . "?error=1");
 }

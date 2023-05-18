@@ -1,2 +1,9 @@
-Order allow,deny
+<Files ./sql.php>
+Order Allow,Deny
 Deny from all
+</Files>
+
+<Files ./get_title.php>
+Order Allow,Deny
+Deny from all
+</Files>

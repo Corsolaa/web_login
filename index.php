@@ -3,17 +3,7 @@ include("components/header.php");
 ?>
 
 <div class="content">
-    <form class="login" action="functions/login_auth.php" method="POST">
-        <h1>Login</h1>
-        <label for="username">
-            <input type="text" name="u_name" id="u_name">
-            <span>Username</span>
-        </label>
-        <label for="password">
-            <input type="password" name="password" id="password">
-            <span>Password</span>
-        </label>
-        <input type="submit" value="SUBMIT" class="submit_button">
-        <?php var_dump($_POST); ?>
-    </form>
+    <h1><a style="font-style: italic; font-size: 1.2em">Hello</a>, this is my standerd login page.</h1>
+    <p>Please respect the privacy of the website, you can try hack it...</p>
+    <a href="login">Go to login page...</a>
 </div>

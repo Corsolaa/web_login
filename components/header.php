@@ -11,4 +11,6 @@ include("functions/get_title.php");
     <meta name="author" content="John Spice">
 
     <title><?php echo get_title(); ?></title>
+
+    <link rel="icon" href="../images/header_icon.ico">
 </head>
